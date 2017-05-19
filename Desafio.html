@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<div id="bordabateria">
+<div id="bateria"></div>
+</div>
+
+
+<style>
+
+#bordabateria {
+     height: 200px;
+     width: 100px;
+     border-color: black;
+     border-style: solid;
+
+}
+
+#bateria {
+    width: 100px;
+    height: 200px;
+    background-color: green;
+    animation-name: bateria;
+    animation-duration: 30s;
+}
+
+@keyframes bateria {
+    100% {background-color: red;}
+    50% {background-color: red;}
+    40% {background-color: green;}
+    from {height: 200;}
+    to {height: 0;}
+}
+
+</style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  </body>
+</html>
